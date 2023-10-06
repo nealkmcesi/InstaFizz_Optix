@@ -1,0 +1,115 @@
+Name: DataStores
+Type: FolderType
+Children:
+- Name: EmbeddedDatabase1
+  Id: g=689d597f2d5db427780afa55768bf496
+  Type: SQLiteStore
+  Children:
+  - Name: Tables
+    Type: BaseObjectType
+    Children:
+    - Name: SQLiteStoreTable1
+      Type: SQLiteStoreTable
+      Children:
+      - Class: Reference
+        Target: ns=17;i=12
+        Direction: Forward
+      - Class: Reference
+        Target: ns=17;i=15
+        Direction: Forward
+      - Class: Reference
+        Target: ns=17;i=21
+        Direction: Forward
+      - Class: Reference
+        Target: ns=17;i=20
+        Direction: Forward
+      - Name: Columns
+        Type: BaseObjectType
+        Children:
+        - Name: Filler Temp (F)
+          Type: StoreColumn
+          DataType: BaseDataType
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../../../../../../CommDrivers/RAEtherNet_IPDriver1/ECHO/Tags/Program&:FillerR/Pressure1"
+            Children:
+            - Name: Mode
+              Type: BaseVariableType
+              DataType: DynamicLinkMode
+              Value: 2
+        - Name: Filler Pressure (Bar)
+          Type: StoreColumn
+          DataType: BaseDataType
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../../../../../../CommDrivers/RAEtherNet_IPDriver1/ECHO/Tags/Program&:FillerR/Temperature1"
+            Children:
+            - Name: Mode
+              Type: BaseVariableType
+              DataType: DynamicLinkMode
+              Value: 2
+  - Class: Reference
+    Target: ns=19;i=30
+    Direction: Forward
+  - Class: Reference
+    Target: ns=19;i=33
+    Direction: Forward
+  - Name: MaxColumnNameLength
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+    Value: 0
+  - Name: MaxColumnCount
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+    Value: 0
+  - Name: DataTypeCompatibilityMap
+    Type: BaseDataVariableType
+    DataType: NodeId
+    AccessLevel: Read
+    ValueRank: OneOrMoreDimensions
+    ArrayDimensions: [0,0]
+    Value: {"Type":17,"Dimensions":[0,0],"Body":[]}
+  - Name: Status
+    Type: PropertyType
+    DataType: StoreStatus
+    AccessLevel: Read
+    Value: 2
+  - Class: Reference
+    Target: ns=17;i=22
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=6
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=8
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=25
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=38
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=41
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=44
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=53
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=55
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=57
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=59
+    Direction: Forward

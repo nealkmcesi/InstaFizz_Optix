@@ -1,0 +1,86 @@
+Name: NetLogic
+Type: FolderType
+Children:
+- Name: Labeling_Pilsner_netlogic
+  Id: g=8bb87a01d5026ab57f8398bef97259eb
+  Type: NetLogic
+  Children:
+  - Class: Method
+    Name: SetLabelTextToPilsner
+    Children:
+    - Name: ns=0;InputArguments
+      Type: BaseVariableType
+      DataType: Argument
+      ReferenceType: HasProperty
+      ValueRank: OneDimension
+      ArrayDimensions: [0]
+      Value: [{"TypeId":{"Id":296},"Body":{"Name":"labelNodeId","DataType":{"Id":17},"ValueRank":-1,"ArrayDimensions":[],"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}]
+- Name: Labeling_IPA_Netlogic
+  Id: g=031fb4fe25e5883159c63ae78ec55045
+  Type: NetLogic
+  Children:
+  - Class: Method
+    Name: SetLabelTextToIPA
+    Children:
+    - Name: ns=0;InputArguments
+      Type: BaseVariableType
+      DataType: Argument
+      ReferenceType: HasProperty
+      ValueRank: OneDimension
+      ArrayDimensions: [0]
+      Value: [{"TypeId":{"Id":296},"Body":{"Name":"labelNodeId","DataType":{"Id":17},"ValueRank":-1,"ArrayDimensions":[],"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}]
+- Name: Labeling_Pale_Ale_netlogic
+  Id: g=1e11889d803737d1be65d01e6ad23532
+  Type: NetLogic
+  Children:
+  - Class: Method
+    Name: SetLabelTextTopaleale
+    Children:
+    - Name: ns=0;InputArguments
+      Type: BaseVariableType
+      DataType: Argument
+      ReferenceType: HasProperty
+      ValueRank: OneDimension
+      ArrayDimensions: [0]
+      Value: [{"TypeId":{"Id":296},"Body":{"Name":"labelNodeId","DataType":{"Id":17},"ValueRank":-1,"ArrayDimensions":[],"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}]
+- Name: Labeling_Stout_Netlogic
+  Id: g=cebd5f2af0f726b4794312baedac83fc
+  Type: NetLogic
+  Children:
+  - Class: Method
+    Name: SetLabelTextToStout
+    Children:
+    - Name: ns=0;InputArguments
+      Type: BaseVariableType
+      DataType: Argument
+      ReferenceType: HasProperty
+      ValueRank: OneDimension
+      ArrayDimensions: [0]
+      Value: [{"TypeId":{"Id":296},"Body":{"Name":"labelNodeId","DataType":{"Id":17},"ValueRank":-1,"ArrayDimensions":[],"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}]
+- Name: Labeling_Hazy_IPA_Netlogic
+  Id: g=078d158b56bbf2669d8134d0de97888c
+  Type: NetLogic
+  Children:
+  - Class: Method
+    Name: SetLabelTextToHazyIPA
+    Children:
+    - Name: ns=0;InputArguments
+      Type: BaseVariableType
+      DataType: Argument
+      ReferenceType: HasProperty
+      ValueRank: OneDimension
+      ArrayDimensions: [0]
+      Value: [{"TypeId":{"Id":296},"Body":{"Name":"labelNodeId","DataType":{"Id":17},"ValueRank":-1,"ArrayDimensions":[],"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}]
+- Name: Labeling_Stopped_Netlogic
+  Type: NetLogic
+  Children:
+  - Class: Method
+    Name: SetLabelTextToStopped
+    Children:
+    - Name: ns=0;InputArguments
+      Type: BaseVariableType
+      DataType: Argument
+      ReferenceType: HasProperty
+      ValueRank: OneDimension
+      ArrayDimensions: [0]
+      Value: [{"TypeId":{"Id":296},"Body":{"Name":"labelNodeId","DataType":{"Id":17},"ValueRank":-1,"ArrayDimensions":[],"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}]
